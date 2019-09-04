@@ -1,0 +1,22 @@
+.App {
+  background-color: #282c34;
+  color: #ccc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-toolbar {
+  margin: 10px 0;
+}
+
+.App-toolbar button {
+  margin-left: 10px
+}
+
+.App-instructions {
+  margin: 20px 0;
+  font-size: 12px
+}

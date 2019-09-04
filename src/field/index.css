@@ -1,0 +1,41 @@
+
+
+.Field {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/215059/grass2.png);
+  background-size: 50px 50px;
+  padding: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Field::before {
+  background-image: linear-gradient(to top, rgba(0,0,0,0.2), transparent);
+  bottom: 0;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.Field-pitch {
+  border: 2px solid #fff;
+  position: relative;
+}
+
+.Field-centerline {
+  border: 1px solid #fff;
+  position: absolute;
+}
+
+.Field-goal,
+.Field-penbox {
+  border: 2px solid #fff;
+  position: absolute;
+}
+
+.Field-centercircle {
+  border: 2px solid #fff;
+  position: absolute;
+  border-radius: 100%
+}
