@@ -6,14 +6,14 @@ All the players
 
 ```
 [
-  {"home":{"a":{},"b":{},"c":{},"d":{},"e":{},"f":{},"g":{},"h":{},"i":{},"j":{},"k":{}},"away":{"a":{},"b":{},"c":{},"d":{},"e":{},"f":{},"g":{},"h":{},"i":{},"j":{},"k":{}},"ball":{}}
+  {"home":{"a":null,"b":null,"c":null,"d":null,"e":null,"f":null,"g":null,"h":null,"i":null,"j":null,"k":null},"away":{"a":null,"b":null,"c":null,"d":null,"e":null,"f":null,"g":null,"h":null,"i":null,"j":null,"k":null},"ball":null}
 ]
 ```
 
 Add another frame
 
 ```
-{"home":{"a":{},"b":{},"c":{},"d":{},"e":{},"f":{},"g":{},"h":{},"i":{},"j":{},"k":{}},"away":{"a":{},"b":{},"c":{},"d":{},"e":{},"f":{},"g":{},"h":{},"i":{},"j":{},"k":{}},"ball":{}}
+{"home":{"a":null,"b":null,"c":null,"d":null,"e":null,"f":null,"g":null,"h":null,"i":null,"j":null,"k":null},"away":{"a":null,"b":null,"c":null,"d":null,"e":null,"f":null,"g":null,"h":null,"i":null,"j":null,"k":null},"ball":null}
 ```
 
 
